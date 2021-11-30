@@ -1,0 +1,96 @@
+
+.carousel-indicators button {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 100%;
+  }
+
+a { text-decoration: none;
+  color: rgb(33, 37, 41)
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(33, 37, 41)
+}
+
+.page-link {
+  text-decoration: none;
+  color: rgb(33, 37, 41)
+}
+
+.page-link:hover {
+  text-decoration: underline;
+  color: rgb(33, 37, 41)
+}
+
+.justifiedP {
+  text-align: justify;
+}
+
+.nav-link {
+  color: rgb(33, 37, 41)
+}
+
+.invalFeedback {
+
+  color: #ff6666;
+  font-size: 12px;
+}
+
+#chat-window {
+  border: 1px solid darkgray;
+  margin-bottom: 5rem;
+}
+
+#input-column {
+  border-top: 1px solid darkgray;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-top: -1px;
+}   
+
+.chat-username {
+  padding-top: 1rem!important;
+}
+
+.chat-date {
+  color: #6c757d;
+  padding-top: 1rem!important;
+}
+
+.messages-group-item {
+  background-color: rgb(248, 249, 250);
+}
+
+.chat-message {
+  padding-top: 0.5rem!important;
+  padding-bottom: 1rem!important;
+  border-bottom: 1px solid lightgray;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.chat-message div {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#messages-column {
+ height: 23rem;
+ width: 100%;
+ margin-right: 12px;
+ padding-right: 0;
+ overflow-y: auto;
+ overflow-x: hidden;
+}
+
+#footerStyle {
+background-color: rgb(248, 249, 250); 
+color: darkgray;
+}
+
+
+

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat | Riga Cycling Girls</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+  <link rel="stylesheet" href="CSS/main.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Riga Cycling Girls</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="articles.html">Articles</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="chat.html">Chat</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="register.html">Register</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutUs.html">About us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+
+    <div class="container mt-3">
+      <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Chat</li>
+        </ol>
+      </nav>
+    </div>
+
+    <div class="container my-4">
+      <h3>Chat</h3>
+    </div>
+
+    <div class="container">
+      <div class="col-md" id="chat-window">
+
+        <div class="row">
+          <div class="col" id="messages-column">
+            <div class="messages-group-item">
+              <div class="row px-4">
+                <div class="col-md-2 chat-username">
+                  <h5>Linda</h5>
+                </div>
+                <div class="col chat-date">28.11.2021 19:59</div>
+              </div>
+              <div class="row px-4 chat-message">
+                <div class="col">Hello! I need a bike. Preferrably a bike with lorem ipsum dolor sit amet consectetur
+                  adipisicing elit.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row" id="input-row">
+          <div class="col" id="input-column">
+            <div class="row px-4 pt-3" id="input-username" style="width: 300px;">
+              <label for="username">Username:</label>
+              <input type="text" class="form-control" id="username" name="chat-input">
+            </div>
+            <div class="row px-4" id="input-message">
+              <label for="message">Message:</label>
+              <textarea class="form-control" id="messageText" rows="3"></textarea>
+            </div>
+            <div class="row px-4" style="width: 150px;">
+              <button class="btn btn-success mt-3 mb-3" id="add-new-message">Send</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </main>
+
+  <footer class="text-center mt-auto" id="footerStyle">
+    <div class="container py-3">
+      <div>
+        © 2021 Riga Cycling Girls
+      </div>
+    </div>
+  </footer>
+
+  <script src="JS/chat.js"></script>
+</body>
+
+</html>
