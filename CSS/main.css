@@ -1,4 +1,8 @@
 
+.bg-dark {
+  background-color: #283041 !important;
+}
+
 .carousel-indicators button {
     width: 10px !important;
     height: 10px !important;
